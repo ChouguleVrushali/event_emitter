@@ -147,8 +147,8 @@ logger.on('trace',(msg)=>console.trace(msg));
 logger.logInfo("user logged in");
 logger.logWarning("password is wrong");
 logger.logError("failed request")
-logger.logCritical('critical',"server crashed");
- logger.logTrace('trace',"API call started");
+logger.logCritical("server crashed");
+ logger.logTrace("API call started");
 
 
  /*.......................customizing EventEmitter.....................*/
